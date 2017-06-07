@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSSBackAPI_Example' do
+  pod 'iOSSBackAPI', :path => '../'
+
+  target 'iOSSBackAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
