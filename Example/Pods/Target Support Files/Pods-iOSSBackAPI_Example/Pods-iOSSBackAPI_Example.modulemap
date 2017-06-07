@@ -1,0 +1,6 @@
+framework module Pods_iOSSBackAPI_Example {
+  umbrella header "Pods-iOSSBackAPI_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

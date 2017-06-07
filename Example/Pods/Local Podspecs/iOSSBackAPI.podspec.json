@@ -1,0 +1,22 @@
+{
+  "name": "iOSSBackAPI",
+  "version": "0.1.0",
+  "summary": "A short description of iOSSBackAPI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Matheus Ribeiro/iOSSBackAPI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Matheus Ribeiro": "empresas.mr.two@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Matheus Ribeiro/iOSSBackAPI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iOSSBackAPI/Classes/**/*"
+}
