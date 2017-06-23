@@ -1,7 +1,10 @@
 PODS:
-  - iOSSBackAPI (0.1.0)
+  - Alamofire (4.4.0)
+  - iOSSBackAPI (0.1.0):
+    - Alamofire (~> 4.4)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.4)
   - iOSSBackAPI (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +12,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  iOSSBackAPI: 2086a62952221d39f7325a33704584d21fc5826b
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  iOSSBackAPI: a14f651d23d994d435a7136e1c7fa9d4d5129a99
 
-PODFILE CHECKSUM: 05acd37488b801d91f6edcfff0fa1fc4eebd8a70
+PODFILE CHECKSUM: a08db8b24c2b9b4dc3e53677f3d76df55fe04b41
 
 COCOAPODS: 1.2.1

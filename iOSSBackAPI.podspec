@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'iOSSBackAPI'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of iOSSBackAPI.'
+  s.summary          = "It is a API to communicate with Shop Back Technology's services. This API reads the user position and send a notification in background."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: It is a API to communicate with Shop Back Technology's services. This API reads the user position and send a notification in background.
                        DESC
 
-  s.homepage         = 'https://github.com/Matheus Ribeiro/iOSSBackAPI'
+  s.homepage         = 'https://github.com/MatheusRR/iOSSBackAPI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Matheus Ribeiro' => 'empresas.mr.two@gmail.com' }
-  s.source           = { :git => 'https://github.com/Matheus Ribeiro/iOSSBackAPI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MatheusRR/iOSSBackAPI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.3'
 
   s.source_files = 'iOSSBackAPI/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.frameworks = 'UIKit'
+    s.dependency 'Alamofire', '~> 4.4'
 end

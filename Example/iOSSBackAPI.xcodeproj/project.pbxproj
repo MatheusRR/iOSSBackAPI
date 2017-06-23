@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F6A17A91EFA151C006ACDD1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F6A17A81EFA151C006ACDD1 /* MapKit.framework */; };
+		2FCDB1201EF3064000B4E82B /* iOSSBackAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDB11F1EF3064000B4E82B /* iOSSBackAPI.framework */; };
+		2FCDB1221EF3064800B4E82B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FCDB1211EF3064800B4E82B /* Alamofire.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,8 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B0EA5B3315C312D7478A61C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		424EAC0FD47F0997AE98DA1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0B0EA5B3315C312D7478A61C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F6A17A81EFA151C006ACDD1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2FCDB11F1EF3064000B4E82B /* iOSSBackAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iOSSBackAPI.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/iOSSBackAPI-esymnpbqsambssborovnzfmqgmbq/Build/Products/Debug-iphoneos/iOSSBackAPI/iOSSBackAPI.framework"; sourceTree = "<group>"; };
+		2FCDB1211EF3064800B4E82B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/iOSSBackAPI-esymnpbqsambssborovnzfmqgmbq/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		424EAC0FD47F0997AE98DA1E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* iOSSBackAPI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSSBackAPI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +50,7 @@
 		9414F19266431F239D317C8F /* Pods_iOSSBackAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSBackAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96F3C2A738DCAA3BE6BF5A8 /* Pods-iOSSBackAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSBackAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSBackAPI_Tests/Pods-iOSSBackAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CFBF43B5585C965299958A3F /* Pods-iOSSBackAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSBackAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSBackAPI_Example/Pods-iOSSBackAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DE2E167D355D408DF750DD54 /* iOSSBackAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSSBackAPI.podspec; path = ../iOSSBackAPI.podspec; sourceTree = "<group>"; };
+		DE2E167D355D408DF750DD54 /* iOSSBackAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSSBackAPI.podspec; path = ../iOSSBackAPI.podspec; sourceTree = "<group>"; };
 		E9D941D4B18BCB2EC04BB8EE /* Pods_iOSSBackAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSSBackAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD749777FD7C1E62F718478 /* Pods-iOSSBackAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSSBackAPI_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSSBackAPI_Tests/Pods-iOSSBackAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCDB1221EF3064800B4E82B /* Alamofire.framework in Frameworks */,
+				2FCDB1201EF3064000B4E82B /* iOSSBackAPI.framework in Frameworks */,
+				2F6A17A91EFA151C006ACDD1 /* MapKit.framework in Frameworks */,
 				CA47CC0BCDB9A0C0EC525D28 /* Pods_iOSSBackAPI_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,6 +81,9 @@
 		0630BEFC5B284F714463EF42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2F6A17A81EFA151C006ACDD1 /* MapKit.framework */,
+				2FCDB1211EF3064800B4E82B /* Alamofire.framework */,
+				2FCDB11F1EF3064000B4E82B /* iOSSBackAPI.framework */,
 				9414F19266431F239D317C8F /* Pods_iOSSBackAPI_Example.framework */,
 				E9D941D4B18BCB2EC04BB8EE /* Pods_iOSSBackAPI_Tests.framework */,
 			);
@@ -215,10 +227,20 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = J4785C9B5C;
 						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = J4785C9B5C;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -443,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -496,6 +518,7 @@
 			baseConfigurationReference = CFBF43B5585C965299958A3F /* Pods-iOSSBackAPI_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4785C9B5C;
 				INFOPLIST_FILE = iOSSBackAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +533,7 @@
 			baseConfigurationReference = 8B09995B9787A78BD1D52CB7 /* Pods-iOSSBackAPI_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J4785C9B5C;
 				INFOPLIST_FILE = iOSSBackAPI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A96F3C2A738DCAA3BE6BF5A8 /* Pods-iOSSBackAPI_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = J4785C9B5C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +568,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDD749777FD7C1E62F718478 /* Pods-iOSSBackAPI_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = J4785C9B5C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

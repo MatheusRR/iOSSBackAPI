@@ -4,18 +4,23 @@
 //
 //  Created by Matheus Ribeiro on 06/07/2017.
 //  Copyright (c) 2017 Matheus Ribeiro. All rights reserved.
-//
+//  FIVE'S DEVELOPMENT LTDA
 
 import UIKit
+import MapKit
+import iOSSBackAPI
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, iOSSBackAPIDelegate{
 
     var window: UIWindow?
-
-
+    
+    var sback:iOSSBackAPI!
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        sback = iOSSBackAPI(key: "0a0ec49bff3978d7ce232aecf34f19a9", email: "as@shopback.com.br", cellphone: nil, uid: nil, del:self, rangeInKm: 1)
+        sback.pinCheck = true
         return true
     }
 
@@ -41,6 +46,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
+    //MARK: iOSSBackAPIDelegate
+    /*
+    func notificateWhenAPPIsActive(store_id: String, title: String, message: String) {
+        //Called when the application is active and the notification needs send
+    }
+     
+    func userClickedInNotificationSBack() {
+        //Called when the user click in the notification SBack
+    }
+    */
+    
+    func pointsLoaded(points:[CLCircularRegion]) {
+        //Called when the points of region was load
+        (window?.rootViewController as! ViewController).points = points
+        (window?.rootViewController as! ViewController).addPoint()
+    }
 }
 
